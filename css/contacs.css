@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box; 
+    
+  }
+  body{
+    font-family: Arial;
+  }
+  
+  /* .row > * {                             
+    border: 1px solid orange;
+    } */
+    
+  .line_left{
+    background: #3B88B2;
+    width: 25%;
+    height: 5px;
+  }
+  .line_right{
+    background: #00275A;
+  width: 75%;
+  height: 5px;
+  }
+  .line{
+    display: flex;
+  }
+  header{
+    background-image: linear-gradient(-180deg, #E9E9E9 0%, rgba(248, 248, 248, 0)100%);
+    
+  font-weight: 400;
+  color: #212529;
+  height: 70px;
+  
+  }
+  
+  .col-3-first{
+    font-size: 30px;
+  color: #00275A;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:#3B88B2;
+  width:200px;
+  margin-left: 50px;
+  }
+  
+  .logo_bot{
+    line-height: 0.8;
+    margin-left: 89px;
+    letter-spacing: 2.6px;
+  }
+  .ic img{
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   /*иконка будет в строку можно двигать перед текстом*/
+   top: 16px;
+   left: 467px;
+  }
+  .num{
+    color: #212529;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .col-4-second{
+  color: #212529;
+  margin-left: 126px;
+  font-weight: 700;
+  padding-top: 5px;
+  width: 150px;
+  }
+  .telefone{
+    font-size: 20px;
+  }
+  .ico img{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 38px;
+    left: 467px;
+   }
+  .email{
+    font-size: 18px;
+  font-weight: 500;
+  color: #014399;
+  }
+  .email:hover{
+    color: chocolate;
+  }
+  .col-5-menu{
+  background-image: linear-gradient(-180deg, #000E3B 0%, #0E2D62 100%);
+  
+  width: 366px;
+  border-radius: 12px;
+  font-size: 16px;
+  height: 40px;
+  padding: 10px 0px;
+  margin-top: 10px;
+  margin-left: 61px;
+  }
+  .col-5-menu a{
+    color: #fff;
+    padding-left: 15px;
+    align-items: center;
+    text-decoration: none;
+  }
+  .col-5-menu a.gl{
+    color: #fff;
+  }
+  .col-5-menu a.ko{
+    color: #2e86f8;
+  }
+  
+  /*===============  БЛОК2  ============*/
+  /*===============  БЛОК2  ============*/
+  /*===============  БЛОК2  ============*/
+  
+  .col-12-block2{
+    background: url(../images/les2.jpg) no-repeat center;
+    background-size: cover;  
+   
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 920px;
+    
+  }
+  .image{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1.7px;
+    text-align: center;
+   
+    padding-top: 68px;
+  }
+  
+  /*=============== БЛОК3 =============*/
+  /*=============== БЛОК3 =============*/
+  /*=============== БЛОК3 =============*/
+  /*=============== БЛОК3 =============*/
+  .sidebar{
+    margin-left: 36px;
+    background: #f2f2f2;
+    border-radius: 7px;
+    margin-top: 26px;
+  }
+  ul{
+    list-style: none;
+    padding-left: 8px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .rfil{
+  color: #00275a;
+  font-weight: 700;
+  line-height: 1.9;
+  /*отступ между пунктами сайдбара*/
+  }
+  .rfil:hover{
+    color: chocolate;
+  }
+  
+  .title h2{
+    font-size: 26px;
+    color: #00275a;
+    font-weight: 700;
+   margin-bottom: 1px;
+    
+  }
+  .text h2{
+    font-size: 15px;
+    color: #212529;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+ 
+  .text h3{
+      margin-bottom: 3px;
+  }
+  .text h4{
+    font-size: 15px;
+  font-weight: 500;
+  color: #014399;
+  text-decoration: underline;
+  margin-top: 4px;
+  }
+  /*=============== БЛОК4 =============*/
+  /*=============== БЛОК4 =============*/
+  /*=============== БЛОК4 =============*/
+  /*=============== БЛОК4 =============*/
+  .iconpdf{
+    margin-left: 38px;
+    margin-top: 10px;
+    border: 1px solid #F2F2F2;
+    border-radius: 7px;
+    padding: 10px 0px;
+    text-align: center;
+  }
+  .wr img{
+    height: 20px;
+    width: 20px;
+  }
+  a.pdf{
+    color: #000;
+    font-weight: 500;
+    font-family: Tahoma;
+  }
+  a.pdf:hover{
+    color: crimson;
+  }
+  
+  .phototext{
+    text-align: center;
+    /*текст по центру блока*/
+  }
+.phy{
+    color: #00275a;
+    font-weight: 700;
+}
+   .phy:hover{
+    color: chocolate;
+   }
+  .ph{
+    color: #00275a;
+    font-weight: 700;
+  }
+  .ph:hover{
+    color: chocolate;
+   }
+  
+  /*ИЗ НИЗА каталог*/
+  
+   .filtr img{
+    height: 140px;
+    width: 180px;
+    margin-top: 40px;
+    border-radius: 15px;
+   
+  }
+  .phcat3 img{
+    height: 140px;
+    width: 180px;
+  margin-top: 73px;
+  border-radius: 15px;
+  }
+  .photcat4 img{
+    height: 140px;
+    width: 180px;
+    margin-top: 73px;
+    border-radius: 15px;
+   }
+   .photokat img{
+    width: 180px;
+    height: 140px;
+    border-radius: 15px;
+  }
+  .title_cat h2{
+    font-size: 26px;
+    color: #00275a;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+  }
+  .map{
+      padding-left: 20px;
+  }
+ /*=============== ПОДВАЛ =============*/
+  /*=============== ПОДВАЛ =============*/
+  /*=============== ПОДВАЛ=============*/
+  /*=============== ПОДВАЛ =============*/
+   
+  footer{
+    background-image: linear-gradient(-180deg, #E9E9E9 0%, rgba(248, 248, 248, 0)100%);
+    
+  font-weight: 400;
+  color: #212529;
+  height: 70px;
+  margin-top: 06px;
+ 
+  }
+  
+  .footer{
+    width:370px;
+    font-size: 30px;
+  color: #00275A;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:#3B88B2;
+  margin-left: 40px;
+  }
+  
+  .kt img{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    /*иконка будет в строку можно двигать перед текстом*/
+    left: 39px;
+    top: 10px;
+   }
+   .ny img{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    left: 39px;
+    top: 33px;
+   }
+   
+   .bottel{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 45px;
+  }
+  .botmail{
+    
+    margin-left: 45px;
+  }
+  
+  .botmail{
+    font-size: 18px;
+  font-weight: 500;
+  color: #014399;
+  }
+  .hnb{
+    width: 200px;
+    margin-top: 6px;
+  }
+  .botmenu{
+    width: 366px;
+    font-size: 13px;
+  padding-top: 20px;
+  padding-right: 15px;
+     text-align: end;
+     /*в конец подвинуть меню*/
+   
+    }
+  
+  .botmenu a{
+    color: rgb(89, 88, 146);
+   padding-left: 10px;
+   text-decoration: underline;
+   
+  }
+  a.gl{
+  color: rgba(102, 99, 95, 0.808);
+  text-decoration: none;
+  }
